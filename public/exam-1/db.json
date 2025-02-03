@@ -62,6 +62,15 @@
       "phone": "0800000007",
       "address": "51/5 test street",
       "gender": "other"
+    },
+    {
+      "id": "db60",
+      "email": "test08@gmail.com",
+      "password": "a123456",
+      "fullName": "test08",
+      "phone": "0800000008",
+      "address": "51/5 test street",
+      "gender": "male"
     }
   ]
 }

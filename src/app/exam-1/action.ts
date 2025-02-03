@@ -12,6 +12,7 @@ export const registerUser = async (formData: RegisterFormData) => {
       return { success: false, errors: { confirmPassword: "Passwords do not match" } };
     }
 
+    // eslint-disable-next-line @typescript-eslint/no-unused-vars
     const { confirmPassword, ...dataToSend } = validatedData;
 
     // Check if email or phone number already exists

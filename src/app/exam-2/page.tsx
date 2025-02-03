@@ -1,9 +1,11 @@
 "use client";
 import { useState, useEffect } from "react";
 import { fetchData, filterData, paginateData, sortData } from "./action";
+import Image from "next/image";
 
 type DataItem = {
   id: number;
+  image?: string; // Add image as an optional field
   email: string;
   fullName: string;
   phone: string;
@@ -66,7 +68,7 @@ export default function HomePage() {
   if (error) return <div>{error}</div>;
 
   return (
-    <div className="container mt-24 mx-auto p-6 bg-gray-100 rounded-lg shadow-lg">
+    <div className="container mt-4 mx-auto p-6 bg-gray-100 rounded-lg shadow-lg">
       <div className="flex space-x-4 mb-4">
         <div className="relative group">
           <input
@@ -98,6 +100,7 @@ export default function HomePage() {
             <th className="border p-2 cursor-pointer hover:bg-gray-300" onClick={() => handleSortChange("id")}>
               ID
             </th>
+            <th className="border p-2">Image</th>
             <th className="border p-2 hover:bg-gray-300">Full Name</th>
             <th className="border p-2 hover:bg-gray-300">Email</th>
             <th className="border p-2 hover:bg-gray-300">Phone</th>
@@ -106,10 +109,20 @@ export default function HomePage() {
             </th>
           </tr>
         </thead>
+
         <tbody>
           {displayedData.map((item) => (
             <tr key={item.id} className="hover:bg-gray-50">
               <td className="border p-2">{item.id}</td>
+              <td className="border p-2 flex justify-center items-center">
+                {item.image ? (
+                  <div className="relative w-12 h-12 overflow-hidden rounded-full">
+                    <Image src={item.image} alt={item.fullName} width={48} height={48} className="object-cover" />
+                  </div>
+                ) : (
+                  <div className="w-12 h-12"></div> // Placeholder for missing image
+                )}
+              </td>
               <td className="border p-2">{item.fullName}</td>
               <td className="border p-2">{item.email}</td>
               <td className="border p-2">{item.phone}</td>

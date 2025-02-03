@@ -1,1 +1,58 @@
-[]
+{
+  "users": [
+    {
+      "id": "1",
+      "email": "test@example.com",
+      "password": "password123",
+      "fullName": "John Doe",
+      "phone": "1234567890",
+      "address": "123 Main St",
+      "gender": "Female"
+    },
+    {
+      "id": "2",
+      "email": "test@example.com",
+      "password": "password123",
+      "fullName": "John Doe",
+      "phone": "1234567890",
+      "address": "123 Main St",
+      "gender": "Female"
+    },
+    {
+      "id": "3",
+      "email": "test@example.com",
+      "password": "password123",
+      "fullName": "John Doe",
+      "phone": "1234567890",
+      "address": "123 Main St",
+      "gender": "Female"
+    },
+    {
+      "id": "4",
+      "email": "test@example.com",
+      "password": "password123",
+      "fullName": "John Doe",
+      "phone": "1234567890",
+      "address": "123 Main St",
+      "gender": "Female"
+    },
+    {
+      "id": "5",
+      "email": "test@example.com",
+      "password": "password123",
+      "fullName": "John Doe",
+      "phone": "1234567890",
+      "address": "123 Main St",
+      "gender": "Female"
+    },
+    {
+      "id": "6",
+      "email": "test@example.com",
+      "password": "password123",
+      "fullName": "John Doe",
+      "phone": "1234567890",
+      "address": "123 Main St",
+      "gender": "Female"
+    }
+  ]
+}

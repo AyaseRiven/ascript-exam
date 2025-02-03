@@ -1,0 +1,67 @@
+{
+  "users": [
+    {
+      "id": "e89f",
+      "email": "test01@gmail.com",
+      "password": "a123456",
+      "fullName": "test01",
+      "phone": "0800000000",
+      "address": "51/5 test street",
+      "gender": "male"
+    },
+    {
+      "id": "58ac",
+      "email": "test02@gmail.com",
+      "password": "a123456",
+      "fullName": "test02",
+      "phone": "0800000001",
+      "address": "51/5 test street",
+      "gender": "male"
+    },
+    {
+      "id": "b1f3",
+      "email": "test03@gmail.com",
+      "password": "a123456",
+      "fullName": "test03",
+      "phone": "0800000003",
+      "address": "51/5 test street",
+      "gender": "female"
+    },
+    {
+      "id": "3cb9",
+      "email": "test04@gmail.com",
+      "password": "j123456",
+      "fullName": "test04",
+      "phone": "0800000004",
+      "address": "51/5 test street",
+      "gender": "male"
+    },
+    {
+      "id": "7ea2",
+      "email": "test05@gmail.com",
+      "password": "่123456",
+      "fullName": "test05",
+      "phone": "0800000005",
+      "address": "51/5 test street",
+      "gender": "male"
+    },
+    {
+      "id": "c8bc",
+      "email": "test06@gmail.com",
+      "password": "่123456",
+      "fullName": "test06",
+      "phone": "0800000006",
+      "address": "51/5 test street",
+      "gender": "other"
+    },
+    {
+      "id": "87d3",
+      "email": "test07@gmail.com",
+      "password": "่123456",
+      "fullName": "test07",
+      "phone": "0800000007",
+      "address": "51/5 test street",
+      "gender": "other"
+    }
+  ]
+}

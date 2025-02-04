@@ -2,6 +2,7 @@
 - ผมใช้ json-server ครับ 
 - npm run server
 - data อยู่ pubilc/exam-1/db.json
+- json-server จะ random id มาให้ครับกำหนดไม่ได้
 
 ## Exam 2 - List
 - กดตรง id กับ age ได้ครับ จะเรียงทั้งจากแบบ asc และ desc
